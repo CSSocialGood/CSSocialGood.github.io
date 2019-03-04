@@ -1,5 +1,5 @@
 <html lang="en">
-    <head>
+     <head>
         <title> NYU CS+Social Good</title>
         <!-- meta links -->
         <meta charset="utf-8">
@@ -9,36 +9,24 @@
 		<meta name="keywords" content="CS4Good, technology, justice, social impact, CS+Social Good, computer science, society">
 
         <!-- css -->
-        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400|Work+Sans:300,400" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="custom.css">
-        <link rel="stylesheet" href="helpers.css">
-<style>
-	.carousel .item {
-  height: 300px;
-}
+        <link rel="stylesheet" href="./css/custom.css">
+        <link rel="stylesheet" href="./css/helpers.css">
 
-.item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
-
-}
-	    </style>
         <!-- scripts -->
-        <script src="jquery-3.3.1.min.js"></script>
+        <script src="./js/jquery-3.3.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="bootstrap.min.js"></script>
-    </head>
-    <header>
+        <script src="./js/bootstrap.min.js"></script>
+    </head> 
+     <header>
 
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light sleep" id="top-navbar">
           <div class="container">
             <a class="navbar-brand logo-title" href="nyu-index.html">
-               
+                <img id="logo" src="./../img/logo.png" width="auto" height="30" alt="NYU CS+Social Good logo" style="display: inline;">
                 <strong> CS+ Social Good @ NYU </strong>
             </a>
             <button class="navbar-toggler ml-auto collapsed" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,14 +38,25 @@
                     <a class="nav-link active" href="#section-home">Home</a>
                   </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="www.medium.com/@cssocialgood">Medium</a>
+                    <a class="nav-link" href="#before-story">Story</a>
                   </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="facebook.com/cssocialgood">Facebook</a>
+                    <a class="nav-link" href="#section-programs">Programs</a>
                   </li>
-                 
+                  <li class="nav-item">
+                      <a class="nav-link" href="./newsletter01.html">Newsletter</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-team">Team</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-faq">FAQ</a>
+                  </li>
                   <!--TODO: css for contact us button -->
-                
+                <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0">
+                    <a class="nav-link" href="#section-contact" target="_blank">
+                        <span class="btn btn-success">Contact Us</span>
+                    </a>
                   </li>
               </ul>
             </div>
@@ -66,95 +65,38 @@
         <!-- END Navbar -->
 
     </header>
-
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-        <!-- Sections -->
-
-        <!-- Home -->
+            <!-- Home -->
         <section class="overflow-hidden relative" id="section-home" >
             <div class="container">
                 <div class="row home-cover justify-content-center">
                     <div class="col-md-6">
-                    	<table>
-                    		<tr>
-                    			<td><div>
-                    					<img id="logo" src="1.jpg" width="150" height="150" alt="NYU CS+Social Good logo" style="display: inline;">
-                       
-                    </div></td>
-                   
-                <td><div>
-
-
                         <h2 class="heading">
-                     &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>NYU </strong> &nbsp;	&nbsp;CS+SocialGood
+                        NYU
                         </h2>
-                       
-                       
-                    </div></td></tr></table>
+                        <h2 class="heading">
+                        CS+Social Good
+                        </h2>
                         <div class="sub-heading">
-                        	<p>
-
-                        		<font size="+1">
                             <p class="mb-4">
-                            	&nbsp;
                             An organization of technologists, designers, and thinkers passionate about maximizing the benefits of technology and mitigating its harms.
                             </p>
-                        </font>
-                        </p>
-                    </br>
-                     </br> </br>
-<div id="myCarousel" class="carousel slide" style="width: 400px; margin: 0 auto">
-
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="1.jpg" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-      <img src="2.png" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    ...
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-                          <!--
+                            <a class="btn btn-lg btn-info mb-3" target="_blank" href="https://goo.gl/forms/gx7VV8HTgMFnwmci1">
+                                <i class="fa fa-id-badge">
+                                </i> Become a Member
+                            </a>
                             <p class="mb-5">
-                                <a class="btn btn-lg outline-light" target="_blank" href="#">
+                                <a class="btn btn-lg outline-light" target="_blank" href="https://medium.com/@cssocialgood">
                                     <i class="fa fa-medium">
                                     </i>
                                 </a>
-                                <a class="btn btn-lg outline-light" target="_blank" href="#">
+                                <a class="btn btn-lg outline-light" target="_blank" href="https://www.facebook.com/CSSocialGood/">
                                     <i class="fa fa-facebook">
                                     </i>
                                 </a>
-                                <a class="btn btn-lg outline-light" target="_blank" href="#">
-                                    <i class="fa fa-twitter">
+                                <a class="btn btn-lg outline-light" target="_blank" href="mailto:cssocialgood@gmail.com">
+                                    <i class="fa fa-envelope-o">
                                     </i>
-                                    -->
                                 </a>
                             </p>
                         </div>
@@ -168,26 +110,10 @@
                             <div class="card-body">
                             <div class="row">
                                 <div class="col-sm-8">
-                                    <p><b>No events</b></p>
+                                    <h3 class="closed"><b>Launch Event</b></h3>
                                 </div>
                                 <div class="col-sm-4">
-                                	
-                                <button class="btn btn-outline-danger"> R S V P</button>
-                            
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-</div>
-                        <!--
-                        <div class="card event-card mb-2">
-                            <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <p><b>Lorem Ipsum</b></p>
-                                </div>
-                                <div class="col-sm-4">
-                                <button class="btn btn-outline-danger"> R S V P</button>
+                                <button class="btn btn-outline-danger"> Closed </button>
                                 </div>
                                 </div>
                             </div>
@@ -196,7 +122,7 @@
                             <div class="card-body">
                             <div class="row">
                                 <div class="col-sm-8">
-                                    <p><b>Lorem Ipsum</b></p>
+                                    <h4>Ethics Workshop</h4>
                                 </div>
                                 <div class="col-sm-4">
                                 <button class="btn btn-outline-danger"> R S V P</button>
@@ -204,23 +130,35 @@
                                 </div>
                             </div>
                         </div>
-                    -->
-                        <a class="btn btn-lg btn-warning mb-3" target="_blank" href="#" >
+                        <div class="card event-card mb-2">
+                            <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h4>Project Pitchfest</h4>
+                                </div>
+                                <div class="col-sm-4">
+                                <button class="btn btn-outline-danger"> R S V P</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+<!--
+                        <a class="btn btn-lg btn-warning mb-3" target="_blank" href="#">
                             <i class="fa fa-calendar">
                             </i> View Calendar
                         </a>
+-->
                     </div>
 
                 </div>
             </div>
-        </section>
-
-        <section class="holder" id="before-story">
+        </section>    
+              <section class="holder" id="before-story">
         </section>
 
         <!-- Story -->
         <section class="overflow-hidden relative" id="section-story">
-            <div class="container pad-250">
+            <div class="container pad-250 ">
                 <div class='row justify-content-center mb-5'>
                     <div class="col-md-8 text-center">
                         <h5> O U R  &nbsp S T O R Y</h5>
@@ -228,373 +166,165 @@
                     </div>
                 </div>
                 <div class="row mt-5 mb-5">
-                    <div class="col-lg-4 col-md- col-sm-6 mb-5">
+                    <div class="col-lg-4 col-md-4 col-sm-6 mb-5">
                         <div class="icon">
                         <i class="fa fa-hand-o-left"></i>
                         </div>
-                        <div class="card info-card">
+                        <div class="card info-card we-are">
                            <div class="card-body">
                                <h5 class="card-title">
                                H I S T O R Y
                                </h5>
-                               <p class="card-text">
-                               	Started and found a board - Fall 2018, Became a Techshift member - Fall 2018, 
-                               </p>
+                               <h5 class="card-text">
+                               Fall 2018
+                               </h5>
+                               <p> CSSG @ NYU was founded in Fall 2018. We were accepted into the <a href="https://techshift.co/newsletter08192018" target="_blank"> TechShift Alliance </a>, attended their summit in January and have been actively trying to become an on-campus organization.</p>
                             </div>
                         </div>
                     </div>
                     <!-- END HISTORY -->
 
-                    <div class="col-lg-4 col-md- col-sm-6 mb-5">
+                    <div class="col-lg-4 col-md-4 col-sm-6 mb-5">
                         <div class="icon">
                             <i class="fa fa-hand-o-right"></i>
                         </div>
-                        <div class="card info-card">
+                        <div class="card info-card we-are">
                            <div class="card-body">
                                <h5 class="card-title">
                                M I S S I O N
                                </h5>
-                               <p class="card-text">
-                                                              CS+SocialGood@NYU empowers NYU’s network to leverage their facilities for social change by collaboratively taking action, establishing programs that partner with local/nternational organizations to make differences, and expose students to opportunities that make sustainable impacts.
-
-                               </p>
+                               <p> CSSG @ NYU empowers NYU’s network to leverage their skils by collaboratively taking action, partnering with local organization to make differences, and expose students to opportunities that make sustainable impacts.</p>
                             </div>
                         </div>
                     </div>
                     <!-- END MISSION -->
 
-                    <div class="col-lg-4 col-md- col-sm-6 mb-5">
+                    <div class="col-lg-4 col-md-4 col-sm-6 mb-5">
                         <div class="icon">
                             <i class="fa fa-hand-o-right"></i>
                         </div>
-                        <div class="card info-card">
+                        <div class="card info-card we-are">
                            <div class="card-body">
                                <h5 class="card-title">
                                V I S I O N
                                </h5>
                                <p class="card-text">
-                              While other clubs foster an environment to hone computer science skills for specific groups. CS+Social Good is a platform for anyone at NYU to make tangible impact on the community around us. Goals: Become a NYU club - Fall 2018, &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Find Problems of interest - Fall 2018
-
+                               While other clubs foster an environment to hone computer science skills for specific groups. CS+Social Good is a platform for anyone at NYU to make tangible impact on the community around us. 
                                </p>
                             </div>
                         </div>
                     </div>
-
-                    
-                                       	<link rel="stylesheet" href="team.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-                     <table class="table table-borderless">
-  
-  <div class="inner" style="-webkit-user-select: auto;">
-    <div class="container" style="-webkit-user-select: auto;">
-      <div class="row" style="-webkit-user-select: auto;">
-        <div class="col-md-10" style="-webkit-user-select: auto;">
-          <section class="ct-page_title" style="-webkit-user-select: auto;">
-            
-          </section>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-<div class="container">
-  <div id="theBioGrid">
-    <ul class="row biogrid" id="biogrid">
-        <div class="imgHolder">
-
-          <a href="/"><img alt="jia" class="rounded-circle" src="2.png" style="width:150px;height:150px;"></a>
-          <div class="description-box animateBottomName">
-            &nbsp; Jodenna Simpson <br>
-           &nbsp; President
-          </div>
-
-        </div>
-
-      </li>
-
-        <div class="imgHolder">
-          <a href="/">
-          <img alt="darla" class="rounded-circle" src="3.jpeg" style="width:150px;height:150px;"></a>
-          <div class="description-box animateBottomName">
-           San
-         Co-founder & Advisor
-          </div>
-        </div>
-      </li>
-        <div class="imgHolder">
-          <a href="/"><img alt="emily" class="rounded-circle" src="4.png" style="width:150px;height:150px;"></a>
-          <div class="description-box animateBottomName">
-           &nbsp; Aru <br>
-           &nbsp; Infastructure Lead
-          </div>
-        </div>
-      </li>
-
-        <div class="imgHolder">
-          <a href="/"><img alt="matthew" class="rounded-circle" src="5.png" style="width:150px;height:150px;"></a>
-          <div class="description-box animateBottomName">
-           &nbsp; Dina <br>
-            &nbsp; Communications Team
-          </div>
-        </div>
-      </li>
-      <div class="imgHolder">
-          <a href="/"><img alt="matthew" class="rounded-circle" src="6.png" style="width:150px;height:150px;"></a>
-          <div class="description-box animateBottomName">
-           &nbsp; Rachel <br>
-           &nbsp;    Director of Partnerships
-          </div>
-        </div>
-      </li>
-
-      <div class="imgHolder">
-          <a href="/"><img alt="matthew" class="rounded-circle" src="7.png" style="width:150px;height:150px;"></a>
-          <div class="description-box animateBottomName">
-          &nbsp;  Rohit <br>
-          &nbsp;  Director of Programs
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-</table>
-	
-
                     <!-- END VISION -->
                 </div>
             </div>
-        </section>
-
+        </section>  
+        
         <section class="holder" id="before-story">
-        </section>
+        </section>        
 
-        <!-- Programs -->
-        <section class="relative overflow-hidden "id="section-programs">
-            <div class="container pad-250">
-                <div class="row justify-content-center mb-5 section-header">
+        <section class="relative" id="section-team">
+            <div class="container">
+                <div class='row justify-content-center mb-5'>
                     <div class="col-md-8 text-center">
-                        <h5> WHAT IS  &nbsp OUR</h5>
-                        <h2> V I S I O N ? </h2>
+                        <h5> O U R  &nbsp S T O R Y</h5>
+                        <h2> OUR  &nbsp  TEAM </h2>
                     </div>
-                </div>
-
-                <!-- Academic Programs Description -->
-                <div class="row mb-5">
-
-                    <div class="col-lg-4 mb-5">
-                    
-                        <img id="classroom" alt="Picture of podium" class="img-fluid img-academic" src="1.jpg">
-                    
-                    </div>
-
-                    <div class="col-lg-8 pl-md-5">
-                        <div class="row">
-                            <div class="col">
-                                <h2> CS+SocialGood's Vision </h2>
-                                <p class="pb_font-20">CS+Social Good at NYU aims to expand as a club and actively solve global issues through the use of technology. </p>
+                </div>                
+                <div class="row justify-content-center mb-5"> 
+                    <div class="col-md-4">
+                        <div class="profile">
+                            <div class="profile-pic">
+                                <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/3-copy.jpeg" class="rounded-circle profile-img"> </a>                        
+                            </div>
+                            <div class="profile-text">
+                                <h5> Pyay Aung San </h5>
+                                <p> Adviser, Co-Founder </p>
                             </div>
                         </div>
-
-                        <!-- Academic Info Cards -->
-                        <div class="row">
-                            <div class="col-lg">
-                                <div class="academic-icon">
-                                    <i class="fa fa-paper-plane-o"></i>
-                                </div>
-                                <div class="card academic-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                           S T E P 1
-                                         </h5>
-                                        <p class="card-text">
-                                           Become an official club at New York University
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="academic-icon">
-                                    <i class="fa fa-paper-plane-o"></i>
-                                </div>
-                                <div class="card academic-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                           S T E P 3
-                                         </h5>
-                                        <p class="card-text">
-                                           Create an organised club, assign social issues to groups and actively attempt to solve the global issues.
-                                        </p>
-                                    </div>
-                                </div>
-
+                        <div class="profile"> 
+                            <div class="profile-pic">
+                           <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/6.png" class="rounded-circle profile-img"> </a>                                        
                             </div>
-
-                            <div class="col-lg">
-                                <div class="academic-icon">
-                                    <i class="fa fa-paper-plane-o"></i>
-                                </div>
-                                <div class="card academic-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                           S T E P 2
-                                         </h5>
-                                        <p class="card-text">
-                                           Research global issues, starting locally and then globally, and collaborate with our team members to find solutions using technology.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="academic-icon">
-                                    <i class="fa fa-paper-plane-o"></i>
-                                </div>
-                                <div class="card academic-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                           S T E P 4
-                                         </h5>
-                                        <p class="card-text">
-                                          Expand and create a platform for social good for anyone and everyone!
-                                        </p>
-                                    </div>
-                                </div>
-
+                            <div class="profile-text">
+                                <h5> Rachel Wu </h5>
+                                <p> Director of Partnerships</p>
+                            </div>    
+                        </div>
+                        <div class="profile"> 
+                            <div class="profile-pic">
+                           <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/10.png" class="rounded-circle profile-img"> </a>                                        
+                            </div>
+                            <div class="profile-text">
+                                <h5> Aryan Agarwal </h5>
+                                <p> Infrastructure Lead</p>
+                            </div>    
+                        </div>                        
+                    </div>
+                    <div class="col-md-4"> 
+                        <div class="profile"> 
+                            <div class="profile-pic">
+                                <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/2.png" class="rounded-circle profile-img"> </a>
+                            </div>
+                            <div class="profile-text">
+                                <h5> Jody Simpson </h5>
+                                <p> President, Co-founder </p>
                             </div>
                         </div>
-
-                        <!-- END info cards -->
+                        <div class="profile"> 
+                            <div class="profile-pic">
+                                <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/8.png" class="rounded-circle profile-img"> </a>
+                            </div>
+                            <div class="profile-text">
+                                <h5> Sudarshini Tyagi </h5>
+                                <p> Director of Communications </p>
+                            </div>
+                        </div> 
+                        <div class="profile"> 
+                            <div class="profile-pic">
+                           <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/11.jpg" class="rounded-circle profile-img"> </a>                                        
+                            </div>
+                            <div class="profile-text">
+                                <h5> Ivanna Pena</h5>
+                                <p> Communications Team</p>
+                            </div>    
+                        </div>                        
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <div class="profile"> 
+                            <div class="profile-pic">
+                        <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/7-copy.png" class="rounded-circle profile-img"> </a>
+                            </div>
+                            <div class="profile-text">
+                                <h5> Rohit Nawani</h5>
+                                <p> Director of Programs </p>
+                            </div>
+                        </div> 
+                        <div class="profile"> 
+                            <div class="profile-pic">
+                        <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/9-copy.jpg" class="rounded-circle profile-img"> </a>
+                            </div>
+                            <div class="profile-text">
+                             <h5> Elina Yu</h5>
+                                <p> Treasurer </p>
+                            </div>
+                        </div> 
+                        <div class="profile"> 
+                            <div class="profile-pic">
+                           <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/5-copy.png" class="rounded-circle profile-img"> </a>                                        
+                            </div>
+                            <div class="profile-text">
+                                <h5> Dina Himed</h5>
+                                <p> Communications Team </p>
+                            </div>    
+                        </div>                        
                     </div>
                 </div>
-                <!-- END Academic Description -->
-
-                <!-- Extra-curricular -->
-                <!--
-                 <div class="row justify-content-center mb-5 section-header">
-                    <div class="col-md-8 text-center">
-                        <h2 class="mb-3 mt-5"> E X T R A - C U R R I C U L A R </h2>
-                    </div>
-                </div>
-
-                <!-- Extra-curricular Programs Description -->
-                <!--
-                <div class="row">
-
-                    <div class="col-lg-4 mb-5">
-                        <img id="volunteer" alt="Picture of nyu volunteer shirt" class="img-fluid img-academic" src="./../img/extra-programs.png">
-                    </div>
-
-                    <div class="col-lg-8 pl-md-5">
-                        <div class="row">
-                            <div class="col">
-                                <h2> CS+Good Outside of the Classroom </h2>
-                                <p class="pb_font-20">CS+Social Good at NYU also engages with our community in ways that go beyond the classroom. </p>
-                            </div>
-                        </div>
-                    -->
-
-                        <!-- Extracurricualar  Info Cards -->
-                        <!--
-                        <div class="row">
-                            <div class="col-lg">
-                                <div class="academic-icon">
-                                    <i class="fa fa-handshake-o"></i>
-                                </div>
-                                <div class="card academic-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                           T I T L E
-                                         </h5>
-                                        <p class="card-text">
-                                           Lorem Ipsum .....
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="academic-icon">
-                                    <i class="fa fa-handshake-o"></i>
-                                </div>
-                                <div class="card academic-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                           T I T L E
-                                         </h5>
-                                        <p class="card-text">
-                                           Lorem Ipsum .....
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg">
-                                <div class="academic-icon">
-                                    <i class="fa fa-handshake-o"></i>
-                                </div>
-                                <div class="card academic-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                           T I T L E
-                                         </h5>
-                                        <p class="card-text">
-                                           Lorem Ipsum .....
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="academic-icon">
-                                    <i class="fa fa-handshake-o"></i>
-                                </div>
-                                <div class="card academic-card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                           T I T L E
-                                         </h5>
-                                        <p class="card-text">
-                                           Lorem Ipsum .....
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- END info cards -->
-                   
-                    </div>
-                </div>
-
-
-                <!-- END Extra-curricular -->
-
             </div>
-
         </section>
+        
+        <section class="holder" id="before-story">
+        </section>        
+
     
-
-        <!-- Team -->
-        <!--
-        <section id="section-team">
-
-        </section>
--->
-
-        <!-- FAQ -->
-        <!--
-        <section id="section-faq">
-
-        </section>
--->
-        <!-- Contact -->
-        <!--
-        <section id="section-contact">
-
-        </section>
--->
-        <!-- END Sections -->
     </body>
-
-    <!-- after scripts -->
-    <script src="document-ready.js"></script>
-
-</html>
