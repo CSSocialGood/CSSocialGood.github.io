@@ -1,0 +1,155 @@
+/*
+CSS for nyu-index file
+*/
+
+/* make gradient */
+#section-home {
+    padding-top: 75px;
+    /* background:#593196 !important; */
+    background-image: linear-gradient(#593196 , white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+
+/*
+.active a {
+    background-color: rgba(136, 7, 230, 0.9);
+}
+*/
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link  {
+    color: rgba(136, 7, 230, 0.9) !important;
+}
+
+
+@media (max-width: 991px) {
+    #section-home {
+        height: auto;
+    }
+
+    body #section-story {
+       height: 1000px;
+    }
+}
+
+/* center a few items at some width */
+@media (max-width: 767px) {
+    .home-cover {
+        text-align: center;
+    }
+    .event-card {
+        margin: auto;
+        margin-bottom: 10px;
+        text-align: left;
+        width: 18rem;
+    }
+    #section-home {
+        height: auto;
+    }
+}
+
+@media (max-width: 575px) {
+     body #section-story {
+       height: 1240px;
+    }
+}
+
+/* .holder {
+    background: url("./../img/mouse.jpg");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#section-story {
+    padding-top: 50px;
+    /* background: #FFF5EE !important; */
+    background-image: linear-gradient(#FFF5EE, #E6E6FA);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    height: 95vh;
+}
+
+#section-programs {
+    padding-top: 75px;
+    background-image: linear-gradient(to bottom right, #e7def7 , white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+#section-team {
+    background: #FFF0F5;
+    height: 95vh;
+}
+
+body {
+    padding-top: 70px;
+    font-weight: 400;
+}
+
+
+.heading {
+    color:aliceblue;
+    font-size: 60px;
+}
+
+.sub-heading {
+    color:aliceblue;
+}
+
+.outline-light {
+    border: 1px solid;
+    text-transform: uppercase;
+    background: none;
+}
+
+.event-card {
+    background: #E6E6FA;
+    box-shadow: 4px 11px 68px -20px rgba(0, 0, 0, 0.75);
+    padding-right: 15px;
+}
+
+.info-card {
+    box-shadow: 4px 11px 68px -20px rgba(0, 0, 0, 0.75);
+    height: 250;
+}
+
+.academic-card {
+    border: none;
+    background: none;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    box-shadow: 1px 11px 68px -20px rgba(0, 0, 0, 0.75);
+}
+
+.fa-hand-o-left, .fa-hand-o-right, .fa-paper-plane-o, .fa-handshake-o {
+    font-size: 48px;
+    color: #c6a0e9;
+}
+
+.icon {
+    text-align: center;
+}
+
+.academic-icon {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+
+}
+.logo-title {
+  color: purple !important;
+}
+.img-academic {
+    height: 300;
+    box-shadow: 2px 11px 68px -20px rgba(0, 0, 0, 0.75);
+}
+
+.section-header {
+    padding-bottom: 25px;
+}
