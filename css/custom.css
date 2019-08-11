@@ -70,7 +70,7 @@ CSS for nyu-index file
        height: 1240px;
     }
     .info-card {
-        min-height: 150px; 
+        min-height: 150px;
     }
 }
 
@@ -180,7 +180,7 @@ body {
 }
 
 .profile-img {
-    height: 150px;
+    height: 190px;
     width: 190px;
 }
 
@@ -193,7 +193,7 @@ body {
 
 .profile-text {
     display: block;
-    text-align: center;   
+    text-align: center;
 }
 
 .closed {
