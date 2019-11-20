@@ -1,353 +1,261 @@
+
+<!doctype html>
 <html lang="en">
-     <head>
-        <title> NYU CS+Social Good</title>
-        <!-- meta links -->
-        <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!--- same as the one on the Standford Site -->
-        <meta name="description" content="A student organization at NYU dedicated to the intersection of technology and social impact.">
-		<meta name="keywords" content="CS4Good, technology, justice, social impact, CS+Social Good, computer science, society">
 
-        <!-- css -->
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400|Work+Sans:300,400" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./css/custom.css">
-        <link rel="stylesheet" href="./css/helpers.css">
+<head>
+  <title>NYU CS+Social Good</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
-        <!-- scripts -->
-        <script src="./js/jquery-3.3.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="./js/bootstrap.min.js"></script>
-    </head>
-     <header>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500i,700|Crimson+Text|Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
 
-        <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light sleep" id="top-navbar">
-          <div class="container">
-            <a class="navbar-brand logo-title" href="nyu-index.html">
-                <img id="logo" src="./img/logo.PNG" width="auto" height="30" alt="NYU CS+Social Good logo" style="display: inline;">
-                <strong> CS+ Social Good @ NYU </strong>
-            </a>
-            <button class="navbar-toggler ml-auto collapsed" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
-              <span><i class="navbar-toggler-icon"></i></span>
-            </button>
-            <div class="navbar-collapse collapse" id="probootstrap-navbar" style="">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#section-home">Home</a>
-                  </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#before-story">Story</a>
-                  </li>
-<!--
-                <li class="nav-item">
-                    <a class="nav-link" href="#section-programs">Programs</a>
-                  </li>
--->
-<!--
-                  <li class="nav-item">
-                      <a class="nav-link" href="./newsletter01.html">Newsletter</a>
-                    </li>
--->
-                <li class="nav-item">
-                    <a class="nav-link" href="#section-team">Team</a>
-                  </li>
-<!--
-                <li class="nav-item">
-                    <a class="nav-link" href="#section-faq">FAQ</a>
-                  </li>
--->
-                  <!--TODO: css for contact us button -->
-                <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0">
-                    <a class="nav-link" href="mailto:cssocialgood@gmail.com" target="_blank">
-                        <span class="btn btn-success">Contact Us</span>
-                    </a>
-                  </li>
-              </ul>
-            </div>
+<body>
+  <header>
+    <div class="menubtn">
+      <span>menu &rarr;</span>
+    </div>
+    <nav>
+      <div class="menu">
+        <!-- <img class="logo-image" src="./img/logo-transparent.png" height="40px" alt="NYU CS+Social Good logo"> -->
+        <a href="#landing" class="active">top.</a>
+        <a href="#story">story.</a>
+        <a href="#vision">goals.</a>
+        <a href="#team">team.</a>
+        <a href="#events">events.</a>
+        <!-- <a>&xrarr;</a> -->
+        <div class="arrow" href="#story">
+          <div class="stem">
+
           </div>
-        </nav>
-        <!-- END Navbar -->
+          <div class="leftarr">
 
-    </header>
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
-            <!-- Home -->
-        <section class="overflow-hidden relative" id="section-home" >
-            <div class="container">
-                <div class="row home-cover justify-content-center">
-                    <div class="col-md-6">
-                        <h2 class="heading">
-                        NYU
-                        </h2>
-                        <h2 class="heading">
-                        CS+Social Good
-                        </h2>
-                        <div class="sub-heading">
-                            <p class="mb-4">
-                            An organization of technologists, designers, and thinkers passionate about maximizing the benefits of technology and mitigating its harms.
-                            </p>
-                            <a class="btn btn-lg btn-info mb-3" target="_blank" href="https://goo.gl/forms/gx7VV8HTgMFnwmci1">
-                                <i class="fa fa-id-badge">
-                                </i> Become a Member
-                            </a>
-                            <p class="mb-5">
-                                <a class="btn btn-lg outline-light" target="_blank" href="https://medium.com/@cssocialgood">
-                                    <i class="fa fa-medium">
-                                    </i>
-                                </a>
-                                <a class="btn btn-lg outline-light" target="_blank" href="https://www.facebook.com/CSSocialGood/">
-                                    <i class="fa fa-facebook">
-                                    </i>
-                                </a>
-                                <a class="btn btn-lg outline-light" target="_blank" href="mailto:cssocialgood@gmail.com">
-                                    <i class="fa fa-envelope-o">
-                                    </i>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-1">
-                    </div>
-                    <!-- Upcoming Events updated here -->
-                    <div class="col-md-5 home-cover">
-                        <h2 class="mt-3"> Upcoming Events </h2>
-                        <div class="card event-card mb-2">
-                            <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <h3 class="closed"><b>Launch Event</b></h3>
-                                </div>
-                                <div class="col-sm-4">
-                                <button class="btn btn-outline-danger"> Closed </button>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card event-card mb-2">
-                            <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <h4>Ethics Workshop</h4>
-                                </div>
-                                <div class="col-sm-4">
-                                <button class="btn btn-outline-danger"> R S V P</button>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card event-card mb-2">
-                            <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <h4>Project Pitchfest</h4>
-                                </div>
-                                <div class="col-sm-4">
-                                <button class="btn btn-outline-danger"> R S V P</button>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-<!--
-                        <a class="btn btn-lg btn-warning mb-3" target="_blank" href="#">
-                            <i class="fa fa-calendar">
-                            </i> View Calendar
-                        </a>
--->
-                    </div>
+          </div>
+          <div class="rightarr">
 
-                </div>
-            </div>
-        </section>
-              <section class="holder" id="before-story">
-        </section>
-
-        <!-- Story -->
-        <section class="overflow-hidden relative" id="section-story">
-            <div class="container pad-250 ">
-                <div class='row justify-content-center mb-5'>
-                    <div class="col-md-8 text-center">
-                        <h5> O U R  &nbsp S T O R Y</h5>
-                        <h2> W H O  &nbsp  W E  &nbsp  A R E </h2>
-                    </div>
-                </div>
-                <div class="row mt-5 mb-5">
-                    <div class="col-lg-4 col-md-4 col-sm-6 mb-5">
-                        <div class="icon">
-                        <i class="fa fa-hand-o-left"></i>
-                        </div>
-                        <div class="card info-card we-are">
-                           <div class="card-body">
-                               <h5 class="card-title">
-                               H I S T O R Y
-                               </h5>
-                               <h5 class="card-text">
-                               Fall 2018
-                               </h5>
-                               <p> CSSG @ NYU was founded in Fall 2018. We were accepted into the <a href="https://techshift.co/newsletter08192018" target="_blank"> TechShift Alliance </a>, attended their summit in January and have been actively trying to become an on-campus organization.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END HISTORY -->
-
-                    <div class="col-lg-4 col-md-4 col-sm-6 mb-5">
-                        <div class="icon">
-                            <i class="fa fa-hand-o-right"></i>
-                        </div>
-                        <div class="card info-card we-are">
-                           <div class="card-body">
-                               <h5 class="card-title">
-                               M I S S I O N
-                               </h5>
-                               <p> CSSG @ NYU empowers NYU’s network to leverage their skils by collaboratively taking action, partnering with local organization to make differences, and expose students to opportunities that make sustainable impacts.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END MISSION -->
-
-                    <div class="col-lg-4 col-md-4 col-sm-6 mb-5">
-                        <div class="icon">
-                            <i class="fa fa-hand-o-right"></i>
-                        </div>
-                        <div class="card info-card we-are">
-                           <div class="card-body">
-                               <h5 class="card-title">
-                               V I S I O N
-                               </h5>
-                               <p class="card-text">
-                               While other clubs foster an environment to hone computer science skills for specific groups. CS+Social Good is a platform for anyone at NYU to make tangible impact on the community around us.
-                               </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END VISION -->
-                </div>
-            </div>
-        </section>
-
-        <section class="holder" id="before-story">
-        </section>
-
-        <section class="relative" id="section-team">
-            <div class="container">
-                <div class='row justify-content-center mb-5'>
-                    <div class="col-md-8 text-center">
-                        <h5> O U R  &nbsp S T O R Y</h5>
-                        <h2> OUR  &nbsp  TEAM </h2>
-                    </div>
-                </div>
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-4">
-                        <div class="profile">
-                            <div class="profile-pic">
-                                <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/3.jpeg" class="rounded-circle profile-img"> </a>
-                            </div>
-                            <div class="profile-text">
-                                <h5> Pyay Aung San </h5>
-                                <p> Adviser, Co-Founder </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="profile">
-                            <div class="profile-pic">
-                                <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/2.png" class="rounded-circle profile-img"> </a>
-                            </div>
-                            <div class="profile-text">
-                                <h5> Jody Simpson </h5>
-                                <p> President, Co-founder </p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="profile">
-                            <div class="profile-pic">
-                        <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/7-copy.png" class="rounded-circle profile-img"> </a>
-                            </div>
-                            <div class="profile-text">
-                                <h5> Rohit Nawani</h5>
-                                <p> Director of Programs </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-4">
-                        <div class="profile">
-                            <div class="profile-pic">
-                           <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/6.png" class="rounded-circle profile-img"> </a>
-                            </div>
-                            <div class="profile-text">
-                                <h5> Rachel Wu </h5>
-                                <p> Director of Partnerships</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="profile">
-                            <div class="profile-pic">
-                                <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/8.png" class="rounded-circle profile-img"> </a>
-                            </div>
-                            <div class="profile-text">
-                                <h5> Sudarshini Tyagi </h5>
-                                <p> Director of Communications </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="profile">
-                            <div class="profile-pic">
-                        <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/9-copy.jpg" class="rounded-circle profile-img"> </a>
-                            </div>
-                            <div class="profile-text">
-                             <h5> Elina Yu</h5>
-                                <p> Treasurer </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-4">
-                        <div class="profile">
-                            <div class="profile-pic">
-                           <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/10.png" class="rounded-circle profile-img"> </a>
-                            </div>
-                            <div class="profile-text">
-                                <h5> Aryan Agarwal </h5>
-                                <p> Infrastructure Lead</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="profile">
-                            <div class="profile-pic">
-                           <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/11.jpg" class="rounded-circle profile-img"> </a>
-                            </div>
-                            <div class="profile-text">
-                                <h5> Ivanna Pena</h5>
-                                <p> Communications Team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="profile">
-                            <div class="profile-pic">
-                           <a href="https://www.linkedin.com/in/simpsonjr/"> <img src="./img/5-copy.png" class="rounded-circle profile-img"> </a>
-                            </div>
-                            <div class="profile-text">
-                                <h5> Dina Himed</h5>
-                                <p> Communications Team </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="holder" id="before-story">
-        </section>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="background">
+    <!-- <img src="img/bg.jpg" /> -->
+    <!-- <div class="star one" data-multiplier="0.89" data-offset="100"></div>
+    <div class="star two" data-multiplier="1.33" data-offset="220"></div>
+    <div class="star three" data-multiplier="0.72" data-offset="580"></div> -->
+    <!-- <div class="diagonal three" data-multiplier="0.34"></div>
+    <div class="diagonal two" data-multiplier="0.33"></div>
+    <div class="diagonal one" data-multiplier="2"></div> -->
+  </div>
+  <main>
+    <section id="landing" class="to-observe" data-index="0">
+      <h1>We help you help those in need.</h1>
+      <a href="#events">
+        <!-- <a href="mailto:cssocialgood@gmail.com" target="_blank" class="cta">Show me how</a> -->
+        <h2>Show me how &rarr;</h2>
+      </a>
+    </section>
+    <section id="story" class="to-observe" data-index="1">
+      <div class="copysec history">
+        <h3>A beginning.</h3>
+        <p>
+          We were founded in Fall 2018, as a member of the TechShift Alliance. We attended their summit in January and are now an official club at NYU.
+        </p>
+      </div>
+      <img data-src="img/history.jpg" class="copyimg history" />
+      <!-- <h3>OUR STORY</h3>
+      <p>Founded in Fall 2018, NYU CS+Social Good was accepted into the TechShift Alliance, and attended their summit in January. We empower NYU’s network to leverage their skils by collaboratively taking action, through partnering with local
+        organizations to make differences, and by exposing students to opportunities that make sustainable impacts. While other clubs foster an environment to hone computer science skills for specific groups, NYU CS+Social Good is a platform for
+        anyone at NYU to make tangible impact on the community around us.
+      </p> -->
+    </section>
+    <section id="vision" class="to-observe" data-index="2">
+      <div class="copysec goal-one">
+        <h3>A change-maker.</h3>
+        <p>
+          We seek to empower NYU’s network to leverage their skils by collaboratively taking action, through partnering with local organizations to make differences, and by exposing students to opportunities that make sustainable impacts.
+        </p>
+      </div>
+      <img data-src="img/goal-one.jpg" class="copyimg goal-one" />
+      <div class="copysec goal-two">
+        <h3>A force for good.</h3>
+        <p>
+          While other clubs foster an environment to hone computer science skills, NYU CS+Social Good is a platform for anyone at NYU to make a tangible impact on the community around us.
+        </p>
+      </div>
+      <img data-src="img/goal-two.jpg" class="copyimg goal-two" />
+    </section>
+    <section id="team" class="to-observe" data-index="3">
+      <h4>Meet our team</h4>
+      <div class="teamlist">
+        <div class="profile">
+          <span class="position">Co-founder</span>
+          <span class="name">Sudarshini Tyagi</span>
+          <img data-src="img/team/sudo.jpg" class="profile-img" />
+          <p class="blurb">
+            Sudarshini Tyagi is a Masters student at Courant Institute NYU studying Computer Science. She originally hails from India where she received her undergraduate degree, also in CS. She is constantly on the lookout for people who
+            share the same drive to give back to society; one day she'll sit down with these people to solve the biggest problems of the society.
+          </p>
+        </div>
+        <div class="profile">
+          <span class="position">Director of Projects</span>
+          <span class="name">Rohit Nawani</span>
+          <img data-src="img/team/rohit.jpg" class="profile-img" />
+          <p class="blurb">
+            Hi! I am a student from Hong Kong majoring in Computer Science and Mathematics. I get easily distracted by anything data-related, especially data
+            {visualisation, science, engineering}. Computer Science fascinates me with its limitless
+            applications across various domains, but its benefits seem unknown to many organisations and individuals, including my younger self!</p>
+        </div>
+        <div class="profile">
+          <span class="position">Director of Partnerships</span>
+          <span class="name">Rachel Wu</span>
+          <img data-src="img/team/rachel.jpg" class="profile-img" />
+          <p class="blurb">
+            As a senior pursuing a major in Honors Communications and a business minor, I have fostered my passion for the tech industry by spending all three summers of university scaling a high growth startup. Last year, I was thrilled to hear
+            about CS+Social Good founding a chapter at NYU, where I now have the opportunity to pursue my interest in tech and social impact outside of work. At NYU, I am also captain of the NCAA D1 Fencing Team and a Leadership Program
+            Coordinator for the Academic Affairs Office. With this team, I look forward to realizing our vision to make a difference here on campus, in NYC, and beyond!
+          </p>
+        </div>
+        <div class="profile">
+          <span class="position">Director of Events</span>
+          <span class="name">Ivanna Pena</span>
+          <img data-src="img/team/ivanna.jpg" class="profile-img" />
+          <p class="blurb">
+            When I tell people I’m majoring in Computer Science and Social & Cultural Analysis, their reaction is usually “how do those fit together?” or “how did you come up with that?”. I think people have grown so accustomed to tech being
+            attached to something negative, that they’ve overshadowed its ability to facilitate social change and propagate social good. CS + Social Good is my way of combating that stereotype, and using tech for good while helping others do the
+            same. In my free time, I love learning obscure parts of songs on the piano, solving my miniature Rubik's Cube, and roaming through the stacks at The Strand.
+          </p>
+        </div>
+        <div class="profile">
+          <span class="position">Project Specialist</span>
+          <span class="name">Connie Zhou</span>
+          <img data-src="img/team/connie.jpg" class="profile-img" />
+          <p class="blurb">
+            Connie is a junior at Tandon studying computer science with minors in mathematics and integrated digital media. She has experience doing full stack web development and android mobile development from various internships and hackathons.
+            Currently she has an interest in data science and machine learning.
+          </p>
+        </div>
+        <div class="profile">
+          <span class="position">Project Specialist</span>
+          <span class="name">Shailesh Vasandani</span>
+          <img data-src="img/team/shailesh.jpg" class="profile-img" />
+          <p class="blurb">
+            I was born in Cebu, Philippines, and grew up in Perth, Australia. For years, I've immersed myself in code and design, learning all the way. I currently live in New York City, where I attend NYU as a Computer Science major. I take
+            pride in
+            using what I've learned to help others, particularly in the social good space.
+          </p>
+        </div>
+        <div class="profile">
+          <span class="position">????</span>
+          <span class="name">Joe Abraham</span>
+          <img data-src="img/team/joe.jpg" class="profile-img" />
+          <p class="blurb">
+            Hi, I’m Joe! I am a junior at CAS majoring in math and computer science. My interests right now include reinforcement learning for game bots and deep learning stock market models. I am always looking for book recommendations, so reach
+            out if you find something interesting. Here at CS+Social Good I am writing about hot button issues within artificial intelligence, machine learning, and computer science.
+          </p>
+        </div>
+        <div class="profile">
+          <span class="position">????</span>
+          <span class="name">Hui Wen</span>
+          <img data-src="img/team/hui_wen.jpg" class="profile-img" />
+          <p class="blurb">
+            Hui Wen is a Tandon sophomore studying Mathematics with a minor in Computer Science. She sees beauty in the intersection of numbers and programming, and hopes to use her expertise in these areas to contribute to society. In CS+Social
+            Good, she aims to spread this passion to encourage many more like-minded people to join her in this mission. Outside being a math nerd, she loves playing various instruments, food hunting, cute stuffed animals, and more food (she does
+            come from Malaysia - so food is a must!).
+          </p>
+        </div>
+        <div class="profile">
+          <span class="position">????</span>
+          <span class="name">Elina Yu</span>
+          <img data-src="img/team/elina.jpg" class="profile-img" />
+          <p class="blurb">
+            When I first heard that a new club called CS+Social Good was forming at NYU, I jumped at the chance to get involved. As someone who studies Computer Science with a minor in Sociology, I am always interested in approaching technology
+            through a socially-conscious lens. I love leading the events team and putting together exciting and thought-provoking content for our members. Outside my time in school and as a part of this organization, I love dancing hip-hop and
+            urban choreo, doing embroidery, and watching great tv shows.
+          </p>
+        </div>
+        <div class="profile">
+          <span class="position">????</span>
+          <span class="name">Amber Teng</span>
+          <img data-src="img/team/amber.jpg" class="profile-img" />
+          <p class="blurb">
+            Hi! I’m a grad student in CDS studying Data Science, with a focus on NLP. I'm really excited about the intersection between technology and social good, and in my free time I enjoy going to the gym, exploring restaurants, and reading.
+            Please feel free to reach out if you want to talk about data science and tech!
+          </p>
+        </div>
+        <div class="profile">
+          <span class="position">????</span>
+          <span class="name">Aisha Manojkumar</span>
+          <img data-src="img/team/aisha.jpg" class="profile-img" />
+          <p class="blurb">
+            Aisha is a junior in CAS studying Computer Science with a minor in Data Science. She is on the Communications Team and manages the CS+Social Good @ NYU Instagram and Facebook pages. Currently, she is interested in researching how to
+            make technology more accessible to people with disabilities. Her other interests include making mood boards and going to concerts.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="events" class="to-observe" data-index="4" style="padding-bottom:100px;">
+        <div class="row">
 
 
-    </body>
+<div class="column">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<h3>Resume Workshop</h3>
+<h2>Upcoming Event</h>
+</div>
+<div class="flip-card-back">
+<p><a style="font-weight: bold;">Time:</a>November 11th</p>
+<p><a style="font-weight: bold;">Location:</a>Leslie E-lab</p>
+<p><a style="font-weight: bold;">Description:</a> Resume workshop led by Meghan Duffy</p>
+</div>
+</div>
+</div>
+</div>
+<div class="column">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<h3 style="vertical-align:center;">A.I. For Anyone</h3>
+<h2>Past Event</h2>
+</div>
+<div class="flip-card-back">
+<p><a style="font-weight: bold;">Time:</a>September 30th</p>
+<p><a style="font-weight: bold;">Location:</a> Leslie E-lab</p>
+<p><a style="font-weight: bold;">Description:</a> Guest Speaker: Haroon Choudery (Co-Founder, A.I. for Anyone). Hear about Haroon's work with A.I. For Anyone and learn more about the club and our current social good projects.</p>
+<p><a style="font-weight: bold;">Resources:</a> <a href="assets/event1.pdf">Slide Deck</a></p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</br>
+
+      </section>
+    </main>
+
+    <footer>
+
+      <span>&copy;&nbsp;NYU CS+Social Good</span>
+      <ul>
+        <li>
+          <a href="#story">READ</a>
+        </li>
+        <li>
+          <a href="vault.html">LEARN</a>
+        </li>
+        <li>
+          <a class="contact-us" href="mailto:cssocialgood@gmail.com" target="_blank">CONTACT</a>
+        </li>
+      </ul>
+
+    </footer>
+  </body>
+
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+</html>
